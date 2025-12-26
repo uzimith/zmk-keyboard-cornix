@@ -247,6 +247,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp N4  &trans  &trans  &trans
             >;
+
+            label = "function";
         };
 
         Navi_layer {
