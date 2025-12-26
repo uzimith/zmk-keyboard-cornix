@@ -42,12 +42,12 @@ layers:
   - ''
   - ''
   - ''
-  - LANG2
+  - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
   - Mix
   - Mix
   - {t: SPACE, h: Symbols}
-  - LANG1
+  - {t: LANG1, h: Navi}
   - ''
   - ''
   - Adjust
@@ -67,12 +67,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LEFT GUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: RIGHT SHIFT}
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
   - {t: ▽, type: trans}
@@ -103,7 +103,7 @@ layers:
   - ''
   - ''
   Symbols:
-  - ''
+  - '`'
   - '!'
   - '@'
   - '#'
@@ -115,7 +115,7 @@ layers:
   - (
   - )
   - '|'
-  - ''
+  - '~'
   - ''
   - '['
   - ']'
@@ -144,12 +144,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '~'
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
