@@ -41,7 +41,7 @@ layers:
   - '-'
   - ''
   - ''
-  - ''
+  - LEFT COMMAND
   - {t: LANG2, h: LEFT COMMAND}
   - {t: SPACE, h: Symbols}
   - Mix
