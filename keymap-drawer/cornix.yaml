@@ -42,7 +42,7 @@ layers:
   - ''
   - ''
   - LEFT COMMAND
-  - {t: LANG2, h: LEFT COMMAND}
+  - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
   - Mix
   - Mix
