@@ -156,11 +156,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <4 3>;
         };
-
-        g {
-            bindings = <&kp GRAVE>;
-            key-positions = <26 28>;
-        };
     };
 
     keymap {
