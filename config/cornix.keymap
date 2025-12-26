@@ -140,7 +140,7 @@
 
         adjust_layer {
             if-layers = <2 1>;
-            then-layer = <3>;
+            then-layer = <4>;
         };
     };
 
@@ -196,7 +196,7 @@
 &kp GRAVE  &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                  &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR   &kp RPAR  &kp PIPE
 &kp TILDE  &none     &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC                   &kp EQUAL  &kp UNDER     &kp MINUS  &kp PLUS   &kp DQT   &kp SQT
 &none      &none     &kp RBKT  &kp RPAR  &kp PIPE  &kp BSLH   &trans  &trans  &kp FSLH   &kp QUESTION  &kp GRAVE  &kp TILDE  &kp SQT   &none
-&none      &none     &none     &trans    &trans    &trans                     &trans     &trans        &trans     &none      &none     &none
+&none      &none     &none     &trans    &trans    &trans                     &trans     &trans        &kp N1     &none      &none     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -213,10 +213,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5                         &kp F6    &kp F7     &kp F8     &kp F9    &kp F10  &kp F11
-&trans  &kp N5  &kp N4  &kp N3   &kp N2  &kp N1                         &kp BSPC  &kp MINUS  &kp EQUAL  &kp PLUS  &kp DQT  &kp F12
-&trans  &kp N6  &kp N7  &kp N8   &kp N9  &kp N0         &trans  &trans  &kp TAB   &kp INS    &kp HOME   &kp END   &trans   &trans
-&none   &none   &none   &kp TAB  &trans  &kp BACKSPACE                  &trans    &trans     &kp N3     &none     &none    &none
+&trans  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5                         &kp F6   &kp F7   &kp F8    &kp F9   &kp F10  &kp F11
+&trans  &kp N1  &kp N2  &kp N3   &kp N4  &kp N5                         &kp N6   &kp N7   &kp N8    &kp N9   &kp N0   &kp F12
+&trans  &kp N6  &kp N7  &kp N8   &kp N9  &kp N0         &trans  &trans  &kp TAB  &kp INS  &kp HOME  &kp END  &trans   &trans
+&none   &none   &none   &kp TAB  &trans  &kp BACKSPACE                  &trans   &trans   &kp N2    &none    &none    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -233,10 +233,10 @@
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                   &none   &none  &none   &none  &none             &none
-&none           &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &tog 0  &to 0  &none   &none  &none             &tog 0
-&bt BT_CLR_ALL  &none          &none          &none          &none          &none          &trans  &trans  &none   &none  &none   &none  &ext_power EP_ON  &kp CAPSLOCK
-&none           &none          &none          &none          &none          &none                          &none   &none  &kp N4  &none  &none             &none
+&bt BT_CLR      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                   &none  &none  &none   &none  &none             &none
+&none           &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &none  &none  &none   &none  &none             &none
+&bt BT_CLR_ALL  &none          &none          &none          &none          &none          &trans  &trans  &none  &none  &none   &none  &ext_power EP_ON  &kp CAPSLOCK
+&none           &none          &none          &none          &none          &none                          &none  &none  &kp N3  &none  &none             &none
             >;
         };
 
@@ -248,7 +248,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp N4  &trans  &trans  &trans
             >;
 
-            label = "function";
+            label = "Function";
         };
 
         Navi_layer {
