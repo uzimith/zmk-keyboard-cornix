@@ -262,11 +262,11 @@ layers:
   - '&mmv MOVE_UP'
   - PAGE UP
   - PAGE DOWN
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - PAGE DOWN
   - PAGE UP
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - ''
+  - ''
   - ''
   - {type: held}
   - ''
@@ -288,9 +288,9 @@ layers:
   - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB2'
   - ''
   - ''
   - ''
