@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: RCTRL}
   - ENTER
   - ESCAPE
-  - {t: Z, h: LGUI}
+  - Z
   - X
   - C
   - V
@@ -48,57 +48,6 @@ layers:
   - Mix
   - {t: SPACE, h: Symbols}
   - {t: LANG1, h: Navi}
-  - ''
-  - ''
-  - Adjust
-  Windows:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LEFT GUI}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: J, h: RIGHT GUI}
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: RCTRL}
-  - {t: ▽, type: trans}
-  - LGUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -223,12 +172,12 @@ layers:
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '3'}
   - {t: BT DISC, h: '4'}
-  - {t: Windows, h: toggle}
+  - {t: Base, h: toggle}
   - {t: Base, h: toggle}
   - ''
   - ''
   - ''
-  - {t: Windows, h: toggle}
+  - {t: Base, h: toggle}
   - BT CLR ALL
   - ''
   - ''
@@ -247,14 +196,14 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - '4'
   - ''
   - ''
-  - {type: held}
+  - ''
   Navi:
   - ''
   - ''
