@@ -335,7 +335,9 @@ path.combo {
 </g>
 <g transform="translate(784, 227)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-</g>
+<a href="#Adjust">
+<text x="0" y="0" class="key tap layer-activator">Adjust</text>
+</a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
 <text x="168" y="91" class="combo tap">TAB</text>
@@ -947,8 +949,8 @@ path.combo {
 <g transform="translate(728, 227)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(784, 227)" class="key keypos-49">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(784, 227)" class="key held keypos-49">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>

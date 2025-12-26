@@ -50,7 +50,7 @@ layers:
   - {t: LANG1, h: Navi}
   - ''
   - ''
-  - ''
+  - Adjust
   Symbols:
   - '`'
   - '!'
@@ -203,7 +203,7 @@ layers:
   - '3'
   - ''
   - ''
-  - ''
+  - {type: held}
   Function:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
