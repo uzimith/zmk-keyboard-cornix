@@ -50,7 +50,7 @@ layers:
   - LANG1
   - ''
   - ''
-  - ''
+  - Adjust
   Windows:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,14 +247,14 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - '4'
   - ''
   - ''
-  - ''
+  - {type: held}
   Navi:
   - ''
   - ''
@@ -408,17 +408,3 @@ layers:
   - ''
   - ''
   - ''
-combos:
-- p: [2, 4]
-  k: ESC
-  l: [Base, Windows]
-- p: [14, 16]
-  k: TAB
-  l: [Base, Windows]
-- p: [21, 19]
-  k: RET
-  l: [Base, Windows]
-- p: [5, 6]
-  k: '3'
-- p: [5, 6]
-  k: '4'
