@@ -178,6 +178,16 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 19>;
         };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <28 29>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
