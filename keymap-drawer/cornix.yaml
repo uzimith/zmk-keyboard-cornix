@@ -23,7 +23,7 @@ layers:
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
-  - {t: ;, h: RCTRL}
+  - {t: ;, h: RIGHT COMMAND}
   - ENTER
   - ESCAPE
   - Z
@@ -307,7 +307,7 @@ layers:
   - ''
   - ''
 combos:
-- p: [14, 15]
+- p: [14, 16]
   k: TAB
-- p: [2, 3]
+- p: [2, 4]
   k: ESCAPE
