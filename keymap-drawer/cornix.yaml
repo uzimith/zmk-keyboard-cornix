@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - ESCAPE
+  - Navi
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LGUI}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
   - ENTER
-  - ''
+  - ESCAPE
   - {t: Z, h: LGUI}
   - X
   - C
@@ -42,12 +42,12 @@ layers:
   - ''
   - ''
   - ''
-  - LANG1
-  - Symbols
-  - {t: SPACE, h: Navi}
-  - ENTER
-  - Mix
   - LANG2
+  - {t: SPACE, h: Symbols}
+  - Mix
+  - Mix
+  - {t: SPACE, h: Symbols}
+  - LANG1
   - ''
   - ''
   - ''
@@ -197,9 +197,9 @@ layers:
   - ''
   - TAB
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - {t: BACKSPACE, type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '3'
   - ''
   - ''
@@ -248,9 +248,9 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
   - '4'
   - ''
   - ''
@@ -268,7 +268,7 @@ layers:
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - ''
-  - ''
+  - {type: held}
   - ''
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -299,7 +299,7 @@ layers:
   - ''
   - Debug
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - '5'
@@ -370,7 +370,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -401,7 +401,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - '7'
