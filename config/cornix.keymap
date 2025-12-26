@@ -150,11 +150,13 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <16 15>;
+            layers = <0>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <4 3>;
+            layers = <0>;
         };
     };
 
