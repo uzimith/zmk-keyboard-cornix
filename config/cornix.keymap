@@ -226,7 +226,7 @@
 
             bindings = <
 &kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR   &kp PRCNT                  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR              &kp RPAR  &none
-&kp TILDE  &none     &none   &none     &kp MINUS  &kp PLUS                   &kp EQUAL  &kp UNDER  &kp PIPE   &kp NON_US_BACKSLASH  &kp DQT   &kp SQT
+&kp TILDE  &none     &none   &none     &kp MINUS  &kp PLUS                   &kp EQUAL  &kp UNDER  &kp PIPE   &kp NON_US_BACKSLASH  &kp SQT   &kp DOUBLE_QUOTES
 &none      &none     &none   &none     &none      &none      &trans  &trans  &none      &none      &none      &none                 &none     &none
 &none      &none     &none   &trans    &trans     &trans                     &trans     &trans     &kp N1     &none                 &none     &none
             >;
