@@ -172,10 +172,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp TAB     &kp Q                 &kp W         &kp E           &kp R                   &kp T                &kp Y  &kp U                    &kp I                &kp O         &kp P             &kp BACKSPACE
-&none       &hm_l LEFT_COMMAND A  &hm_l LALT S  &hm_l LSHIFT D  &hm_shift_l LEFT_GUI F  &kp G                &kp H  &hm_shift_r RIGHT_GUI J  &hm_r RIGHT_SHIFT K  &hm_r RALT L  &hm_r RCTRL SEMI  &kp ENTER
-&kp ESCAPE  &kp Z                 &kp X         &kp C           &kp V                   &kp B  &none  &none  &kp N  &kp M                    &kp COMMA            &kp DOT       &kp FSLH          &kp MINUS
-&none       &none                 &none         &lt 4 LANG2     &lt 1 SPACE             &mo 2                &mo 2  &lt 1 SPACE              &lt 4 LANG1          &none         &none             &none
+&kp TAB     &kp Q                 &kp W         &kp E                 &kp R                     &kp T                &kp Y  &kp U                      &kp I                  &kp O         &kp P             &kp BACKSPACE
+&none       &hm_l LEFT_COMMAND A  &hm_l LALT S  &hm_l LEFT_COMMAND D  &hm_shift_l LEFT_SHIFT F  &kp G                &kp H  &hm_shift_r RIGHT_SHIFT J  &hm_r RIGHT_COMMAND K  &hm_r RALT L  &hm_r RCTRL SEMI  &kp ENTER
+&kp ESCAPE  &kp Z                 &kp X         &kp C                 &kp V                     &kp B  &none  &none  &kp N  &kp M                      &kp COMMA              &kp DOT       &kp FSLH          &kp MINUS
+&none       &none                 &none         &lt 4 LANG2           &lt 1 SPACE               &mo 2                &mo 2  &lt 1 SPACE                &lt 4 LANG1            &none         &none             &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
