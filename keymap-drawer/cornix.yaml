@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - \
-  - ESC
+  - BACKSPACE
+  - ESCAPE
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LGUI}
@@ -38,7 +38,7 @@ layers:
   - ','
   - .
   - /
-  - BACKSPACE
+  - '-'
   - ''
   - ''
   - ''
