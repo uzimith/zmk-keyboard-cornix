@@ -14,16 +14,16 @@ layers:
   - P
   - BACKSPACE
   - ''
-  - {t: A, h: LEFT COMMAND}
+  - {t: A, h: LCTRL}
   - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
+  - {t: D, h: LEFT COMMAND}
   - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RCTRL}
+  - {t: K, h: RIGHT COMMAND}
   - {t: L, h: RALT}
-  - {t: ;, h: RIGHT COMMAND}
+  - {t: ;, h: RCTRL}
   - ENTER
   - ESCAPE
   - Z
@@ -41,7 +41,7 @@ layers:
   - '-'
   - ''
   - ''
-  - ''
+  - LEFT COMMAND
   - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
   - Mix
