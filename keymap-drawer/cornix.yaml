@@ -16,12 +16,12 @@ layers:
   - ''
   - {t: A, h: LEFT COMMAND}
   - {t: S, h: LALT}
-  - {t: D, h: LEFT COMMAND}
+  - {t: D, h: LCTRL}
   - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT COMMAND}
+  - {t: K, h: RCTRL}
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
   - ENTER
