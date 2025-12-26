@@ -263,8 +263,8 @@ layers:
   - PAGE UP
   - PAGE DOWN
   - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - PAGE DOWN
+  - PAGE UP
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - ''
