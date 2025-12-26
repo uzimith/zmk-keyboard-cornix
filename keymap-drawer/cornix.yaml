@@ -309,5 +309,7 @@ layers:
 combos:
 - p: [16, 15]
   k: TAB
+  l: [Base]
 - p: [4, 3]
   k: ESCAPE
+  l: [Base]
