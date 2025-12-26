@@ -175,7 +175,7 @@
 &kp TAB     &kp Q                 &kp W         &kp E                 &kp R                     &kp T                &kp Y  &kp U                      &kp I                  &kp O         &kp P             &kp BACKSPACE
 &none       &hm_l LEFT_COMMAND A  &hm_l LALT S  &hm_l LEFT_COMMAND D  &hm_shift_l LEFT_SHIFT F  &kp G                &kp H  &hm_shift_r RIGHT_SHIFT J  &hm_r RIGHT_COMMAND K  &hm_r RALT L  &hm_r RCTRL SEMI  &kp ENTER
 &kp ESCAPE  &kp Z                 &kp X         &kp C                 &kp V                     &kp B  &none  &none  &kp N  &kp M                      &kp COMMA              &kp DOT       &kp FSLH          &kp MINUS
-&none       &none                 &none         &lt 4 LANG2           &lt 1 SPACE               &mo 2                &mo 2  &lt 1 SPACE                &lt 4 LANG1            &none         &none             &none
+&none       &none                 &none         &lt 5 LANG2           &lt 1 SPACE               &mo 2                &mo 2  &lt 1 SPACE                &lt 5 LANG1            &none         &none             &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -237,6 +237,15 @@
 &none           &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &tog 0  &to 0  &none   &none  &none             &tog 0
 &bt BT_CLR_ALL  &none          &none          &none          &none          &none          &trans  &trans  &none   &none  &none   &none  &ext_power EP_ON  &kp CAPSLOCK
 &none           &none          &none          &none          &none          &none                          &none   &none  &kp N4  &none  &none             &none
+            >;
+        };
+
+        Function_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp N4  &trans  &trans  &trans
             >;
         };
 
