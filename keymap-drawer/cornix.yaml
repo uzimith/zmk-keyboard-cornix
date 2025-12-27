@@ -17,8 +17,8 @@ layers:
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT SHIFT, type: held}
-  - {t: G, h: Mouse, type: held}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: Mouse}
   - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT COMMAND}
@@ -381,6 +381,3 @@ combos:
   l: [Base]
 - p: [32, 33]
   k: '&mkp MCLK'
-- p: [17, 16]
-  k: Base
-  l: [Base]
