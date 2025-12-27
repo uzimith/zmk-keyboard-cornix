@@ -268,8 +268,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
+  - {t: Ctl+Alt+LEFT, type: held}
+  - Alt+Gui+RIGHT ARROW
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
