@@ -204,10 +204,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp TAB     &kp Q          &kp W             &kp E                 &kp R                     &kp T                &kp Y  &kp U                      &kp I                  &kp O         &kp P             &kp BACKSPACE
-&mo 5       &hm_l LCTRL A  &hm_l LALT S      &hm_l LEFT_COMMAND D  &hm_shift_l LEFT_SHIFT F  &kp G                &kp H  &hm_shift_r RIGHT_SHIFT J  &hm_r RIGHT_COMMAND K  &hm_r RALT L  &hm_r RCTRL SEMI  &kp ENTER
-&kp ESCAPE  &kp Z          &kp X             &kp C                 &kp V                     &kp B  &none  &none  &kp N  &kp M                      &kp COMMA              &kp DOT       &kp FSLH          &kp MINUS
-&mo 3       &none          &kp LEFT_COMMAND  &lt 5 LANG2           &lt 1 SPACE               &mo 2                &mo 2  &lt 1 SPACE                &lt 5 LANG1            &none         &none             &mo 4
+&kp TAB     &kp Q          &kp W             &kp E                 &kp R                     &kp T                     &kp Y  &kp U                      &kp I                  &kp O         &kp P             &kp BACKSPACE
+&mo 5       &hm_l LCTRL A  &hm_l LALT S      &hm_l LEFT_COMMAND D  &hm_shift_l LEFT_SHIFT F  &kp G                     &kp H  &hm_shift_r RIGHT_SHIFT J  &hm_r RIGHT_COMMAND K  &hm_r RALT L  &hm_r RCTRL SEMI  &kp ENTER
+&kp ESCAPE  &kp Z          &kp X             &kp C                 &kp V                     &kp B  &kp C_MUTE  &none  &kp N  &kp M                      &kp COMMA              &kp DOT       &kp FSLH          &kp MINUS
+&mo 3       &none          &kp LEFT_COMMAND  &lt 5 LANG2           &lt 1 SPACE               &mo 2                     &mo 2  &lt 1 SPACE                &lt 5 LANG1            &none         &none             &mo 4
             >;
 
             sensor-bindings =
@@ -284,8 +284,8 @@
         Navi_layer {
             display-name = "Navi";
             bindings = <
-&kp LG(TAB)       &kp LA(TAB)              &none           &mmv MOVE_UP    &none            &none                           &trans    &kp PAGE_DOWN  &kp PAGE_UP  &none      &none  &none
-&kp LC(LA(LEFT))  &kp LA(LG(RIGHT_ARROW))  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP                    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none  &none
+&kp LG(LA(LEFT))  &kp LA(LG(RIGHT))        &none           &mmv MOVE_UP    &none            &none                           &trans    &kp PAGE_DOWN  &kp PAGE_UP  &none      &none  &none
+&kp LA(LG(LEFT))  &kp LA(LG(RIGHT_ARROW))  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP                    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none  &none
 &none             &none                    &none           &none           &none            &msc SCRL_DOWN  &trans  &trans  &mkp MB3  &mkp MB1       &mkp MB2     &none      &none  &none
 &none             &none                    &none           &trans          &trans           &trans                          &trans    &trans         &kp N5       &none      &none  &none
             >;
