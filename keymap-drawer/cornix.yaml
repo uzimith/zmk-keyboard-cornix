@@ -44,8 +44,8 @@ layers:
   - LEFT COMMAND
   - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
-  - Mix
-  - Mix
+  - {t: '&mkp MB1', h: Mix}
+  - {t: '&mkp MB2', h: Mix}
   - {t: SPACE, h: Symbols}
   - {t: LANG1, h: Navi}
   - ''
@@ -374,8 +374,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - '&mkp MB1'
   - '&mkp MB1'
   - '&mkp MB2'
@@ -432,3 +432,6 @@ combos:
   l: [Base]
 - p: [32, 33]
   k: '&mkp MCLK'
+- p: [17, 16]
+  k: Scroll
+  l: [Base]
