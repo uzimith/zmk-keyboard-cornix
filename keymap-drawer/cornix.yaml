@@ -260,8 +260,8 @@ layers:
   - ''
   - ''
   - '&mmv MOVE_UP'
-  - PAGE UP
-  - PAGE DOWN
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - PAGE DOWN
   - PAGE UP
