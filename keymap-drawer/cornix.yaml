@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - ''
+  - MUTE
   - ''
   - N
   - M
@@ -256,8 +256,8 @@ layers:
   - ''
   - {type: held}
   Navi:
-  - Gui+TAB
-  - Alt+TAB
+  - Gui+Alt+LEFT
+  - Alt+Gui+RIGHT
   - ''
   - '&mmv MOVE_UP'
   - ''
@@ -268,7 +268,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Ctl+Alt+LEFT, type: held}
+  - {t: Alt+Gui+LEFT, type: held}
   - Alt+Gui+RIGHT ARROW
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
