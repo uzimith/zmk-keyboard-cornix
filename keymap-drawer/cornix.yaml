@@ -36,7 +36,7 @@ layers:
   - N
   - M
   - ','
-  - .
+  - {t: ., h: Mouse}
   - {t: /, h: Mouse}
   - '-'
   - Function
@@ -342,8 +342,8 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
