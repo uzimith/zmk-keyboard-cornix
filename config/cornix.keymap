@@ -326,14 +326,13 @@
         };
 
         Scroll_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
             label = "Scroll";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans             &trans           &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &mkp MB1           &mkp MB1         &mkp MB2  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1           &mkp MB2         &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
