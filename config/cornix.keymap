@@ -219,12 +219,6 @@
             bindings = <&mkp MCLK>;
             key-positions = <32 33>;
         };
-
-        scroll_layer {
-            bindings = <&mo 0>;
-            key-positions = <17 16>;
-            layers = <0>;
-        };
     };
 
     keymap {
