@@ -124,6 +124,14 @@
             quick-tap-ms = <200>;
         };
 
+        mouse_scrl: mouse_wheel_scrl {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+
+            tap-ms = <10>;
+        };
+
         lt: layer_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -339,6 +347,10 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1           &mkp MB2         &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &trans    &trans  &trans  &trans
             >;
+
+            sensor-bindings =
+                <&mouse_scrl SCRL_DOWN SCRL_UP>,
+                <&mouse_scrl SCRL_UP SCRL_DOWN>;
         };
     };
 };
