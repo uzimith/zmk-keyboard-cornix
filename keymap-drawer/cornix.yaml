@@ -256,8 +256,8 @@ layers:
   - ''
   - {type: held}
   Navi:
-  - Gui+Alt+LEFT
-  - Alt+Gui+RIGHT
+  - Sft+LEFT
+  - Sft+RIGHT
   - ''
   - {t: ▽, type: trans}
   - ''
