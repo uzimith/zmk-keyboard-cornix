@@ -256,8 +256,8 @@ layers:
   - ''
   - {type: held}
   Navi:
-  - ''
-  - ''
+  - Gui+TAB
+  - Alt+TAB
   - ''
   - '&mmv MOVE_UP'
   - ''
