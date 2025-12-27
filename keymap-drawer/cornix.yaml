@@ -256,8 +256,8 @@ layers:
   - ''
   - {type: held}
   Navi:
-  - Sft+LEFT
-  - Sft+RIGHT
+  - Sft+DOWN
+  - Sft+UP ARROW
   - ''
   - {t: ▽, type: trans}
   - ''
