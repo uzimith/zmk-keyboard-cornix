@@ -259,7 +259,7 @@ layers:
   - Gui+Alt+LEFT
   - Alt+Gui+RIGHT
   - ''
-  - '&mmv MOVE_UP'
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -268,11 +268,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Alt+Gui+LEFT, type: held}
-  - Alt+Gui+RIGHT ARROW
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&msc SCRL_UP'
   - LEFT
   - DOWN
