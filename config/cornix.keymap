@@ -162,31 +162,37 @@
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <4 3>;
+            layers = <0>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 15>;
+            layers = <0>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
+            layers = <0>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <28 27>;
+            layers = <0>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <33 34>;
+            layers = <0>;
         };
     };
 
