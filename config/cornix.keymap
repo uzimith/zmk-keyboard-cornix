@@ -188,6 +188,11 @@
             key-positions = <33 35>;
             layers = <0>;
         };
+
+        middle_click {
+            bindings = <&mkp MCLK>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
@@ -288,6 +293,15 @@
 &none         &trans            &trans  &trans  &trans  &msc SCRL_UP                    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &none  &none
 &none         &none             &none   &none   &none   &msc SCRL_DOWN  &trans  &trans  &mkp MB3  &mkp MB1       &mkp MB2     &none      &none  &none
 &none         &none             &none   &trans  &trans  &trans                          &trans    &trans         &kp N5       &none      &none  &none
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
