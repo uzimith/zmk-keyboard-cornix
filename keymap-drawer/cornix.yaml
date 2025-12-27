@@ -36,7 +36,7 @@ layers:
   - N
   - M
   - {t: ',', h: Mouse}
-  - .
+  - {t: ., h: Mouse}
   - /
   - '-'
   - Function
