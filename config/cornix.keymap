@@ -236,6 +236,7 @@
             bindings = <&mkp MB3>;
             timeout-ms = <30>;
             key-positions = <15 16>;
+            layers = <5>;
         };
 
         esc_2 {
