@@ -288,7 +288,7 @@ layers:
   - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
   - ''
@@ -328,5 +328,5 @@ combos:
 - p: [33, 34]
   k: ']'
   l: [Base]
-- p: [1, 2]
-  k: '&mkp MB2'
+- p: [14, 15]
+  k: '&mkp MB3'
