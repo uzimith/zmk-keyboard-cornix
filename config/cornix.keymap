@@ -193,42 +193,42 @@
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             timeout-ms = <20>;
-            key-positions = <4 2>;
+            key-positions = <4 3>;
             layers = <0>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             timeout-ms = <20>;
-            key-positions = <7 9>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             timeout-ms = <20>;
-            key-positions = <16 14>;
+            key-positions = <16 15>;
             layers = <0>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             timeout-ms = <20>;
-            key-positions = <19 21>;
+            key-positions = <19 20>;
             layers = <0>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             timeout-ms = <20>;
-            key-positions = <28 26>;
+            key-positions = <28 27>;
             layers = <0>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             timeout-ms = <20>;
-            key-positions = <33 35>;
+            key-positions = <33 34>;
             layers = <0>;
         };
 
