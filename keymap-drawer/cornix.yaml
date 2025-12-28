@@ -104,16 +104,16 @@ layers:
   - ''
   Num:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -330,3 +330,6 @@ combos:
   l: [Base]
 - p: [15, 16]
   k: '&mkp MB3'
+- p: [16, 19]
+  k: ESCAPE
+  l: [Base]
