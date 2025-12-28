@@ -18,7 +18,7 @@ layers:
   - {t: S, h: LALT}
   - {t: D, h: LEFT COMMAND}
   - {t: F, h: LEFT SHIFT}
-  - {t: G, h: Mouse}
+  - G
   - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT COMMAND}
@@ -40,12 +40,12 @@ layers:
   - /
   - '-'
   - Function
-  - ''
+  - {t: '&mkp MB1', h: Mouse}
   - LEFT COMMAND
   - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
-  - {t: '&mkp MB1', h: Mix}
-  - {t: '&mkp MB2', h: Mix}
+  - Mix
+  - Mix
   - {t: SPACE, h: Symbols}
   - {t: LANG1, h: Navi}
   - ''
@@ -307,9 +307,9 @@ layers:
   - ''
   - ''
   Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
+  - '&mkp MB2'
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -349,10 +349,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -379,5 +379,6 @@ combos:
 - p: [33, 35]
   k: ']'
   l: [Base]
-- p: [32, 33]
-  k: '&mkp MCLK'
+- p: [1, 2]
+  k: '&mkp MB2'
+  l: [Mouse]
