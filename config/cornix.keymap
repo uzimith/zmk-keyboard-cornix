@@ -185,7 +185,7 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            timeout-ms = <20>;
+            timeout-ms = <30>;
             key-positions = <0 1>;
             layers = <0>;
         };
