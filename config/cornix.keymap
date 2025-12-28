@@ -244,6 +244,13 @@
             timeout-ms = <30>;
             layers = <0>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <2 4>;
+            timeout-ms = <30>;
+            layers = <0>;
+        };
     };
 
     keymap {
