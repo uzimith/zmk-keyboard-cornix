@@ -185,48 +185,49 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            timeout-ms = <25>;
+            timeout-ms = <20>;
             key-positions = <0 1>;
             layers = <0>;
         };
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            timeout-ms = <25>;
+            timeout-ms = <20>;
             key-positions = <4 2>;
             layers = <0>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
+            timeout-ms = <20>;
             key-positions = <7 9>;
             layers = <0>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            timeout-ms = <25>;
+            timeout-ms = <20>;
             key-positions = <16 14>;
             layers = <0>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            timeout-ms = <25>;
+            timeout-ms = <20>;
             key-positions = <19 21>;
             layers = <0>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            timeout-ms = <25>;
+            timeout-ms = <20>;
             key-positions = <28 26>;
             layers = <0>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            timeout-ms = <25>;
+            timeout-ms = <20>;
             key-positions = <33 35>;
             layers = <0>;
         };
