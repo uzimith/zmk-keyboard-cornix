@@ -383,6 +383,12 @@ path.combo {
 <rect rx="6" ry="6" x="266" y="149" width="28" height="26" class="combo"/>
 <text x="280" y="162" class="combo tap">ESCAPE</text>
 </g>
+<g class="combo combopos-9">
+<path d="M196,42 l-37,0" class="combo"/>
+<path d="M196,42 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="29" width="28" height="26" class="combo"/>
+<text x="196" y="42" class="combo tap">TAB</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 350)" class="layer-Symbols">

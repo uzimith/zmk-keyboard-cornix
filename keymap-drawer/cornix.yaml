@@ -333,3 +333,6 @@ combos:
 - p: [28, 29]
   k: ESCAPE
   l: [Base]
+- p: [2, 4]
+  k: TAB
+  l: [Base]
