@@ -217,7 +217,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - CAPSLOCK
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
@@ -242,7 +242,6 @@ layers:
   - ''
   - ''
   - EP ON
-  - CAPSLOCK
   - ''
   - ''
   - ''
@@ -251,7 +250,8 @@ layers:
   - ''
   - ''
   - ''
-  - Ctl+4
+  - ''
+  - '4'
   - ''
   - ''
   - {type: held}
