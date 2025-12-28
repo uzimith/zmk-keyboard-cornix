@@ -330,6 +330,7 @@ combos:
   l: [Base]
 - p: [15, 16]
   k: '&mkp MB3'
+  l: [Navi]
 - p: [28, 29]
   k: ESCAPE
   l: [Base]
