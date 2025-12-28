@@ -52,7 +52,7 @@ layers:
   - ''
   - Adjust
   Symbols:
-  - '`'
+  - ''
   - '!'
   - '@'
   - '#'
@@ -64,14 +64,14 @@ layers:
   - (
   - )
   - ''
-  - '~'
   - ''
+  - '`'
   - ''
   - ''
   - '-'
   - +
   - '='
-  - {t: ▽, type: trans}
+  - '~'
   - '|'
   - \
   - ''''
@@ -256,9 +256,9 @@ layers:
   - ''
   - {type: held}
   Navi:
+  - ''
   - Sft+DOWN
   - Sft+UP ARROW
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
   - ''
