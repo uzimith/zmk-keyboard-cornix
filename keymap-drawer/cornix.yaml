@@ -271,7 +271,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - '&msc SCRL_UP'
   - LEFT
