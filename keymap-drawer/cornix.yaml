@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - Mouse
+  - Navi
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LEFT COMMAND}
@@ -42,7 +42,7 @@ layers:
   - Function
   - {t: '&mkp MB1', h: Mouse}
   - LEFT COMMAND
-  - {t: LANG2, h: Navi}
+  - {t: LANG2, h: Mouse}
   - {t: SPACE, h: Symbols}
   - Mix
   - Mix
@@ -268,7 +268,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -297,7 +297,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -319,7 +319,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -346,7 +346,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
