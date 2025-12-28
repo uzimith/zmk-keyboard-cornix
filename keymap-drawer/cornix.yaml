@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - Navi
+  - ''
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LEFT COMMAND}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
   - ENTER
-  - ESCAPE
+  - ''
   - Z
   - X
   - C
@@ -268,7 +268,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB2'
@@ -297,7 +297,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
