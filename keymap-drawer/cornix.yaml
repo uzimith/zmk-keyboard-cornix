@@ -39,7 +39,7 @@ layers:
   - .
   - /
   - '-'
-  - Function
+  - {t: ▽, type: trans}
   - {t: '&mkp MB1', h: Navi}
   - LEFT COMMAND
   - {t: LANG2, h: Navi}
@@ -192,12 +192,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '3'
