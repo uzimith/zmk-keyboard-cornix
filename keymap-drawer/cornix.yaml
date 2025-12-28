@@ -40,9 +40,9 @@ layers:
   - /
   - '-'
   - Function
-  - {t: '&mkp MB1', h: Mouse}
+  - {t: '&mkp MB1', h: Base}
   - LEFT COMMAND
-  - {t: LANG2, h: Mouse}
+  - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
   - Mix
   - Mix
@@ -258,8 +258,8 @@ layers:
   Navi:
   - Sft+DOWN
   - Sft+UP ARROW
-  - ''
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - BACKSPACE
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -270,7 +270,7 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_UP'
@@ -306,57 +306,6 @@ layers:
   - ''
   - ''
   - ''
-  Mouse:
-  - BACKSPACE
-  - '&mkp MB2'
-  - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: ESCAPE
@@ -381,4 +330,3 @@ combos:
   l: [Base]
 - p: [1, 2]
   k: '&mkp MB2'
-  l: [Mouse]
