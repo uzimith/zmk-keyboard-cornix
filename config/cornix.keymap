@@ -127,7 +127,7 @@
         hm_lt: homerow_mods_layer_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            bindings = <&lt>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
@@ -349,9 +349,6 @@
             >;
 
             label = "Mouse";
-            sensor-bindings =
-                <&mouse_scrl SCRL_DOWN SCRL_UP>,
-                <&mouse_scrl SCRL_UP SCRL_DOWN>;
         };
     };
 };
