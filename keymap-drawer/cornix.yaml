@@ -40,7 +40,7 @@ layers:
   - /
   - '-'
   - Function
-  - {t: '&mkp MB1', h: Base}
+  - {t: '&mkp MB1', h: Navi}
   - LEFT COMMAND
   - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
@@ -258,9 +258,9 @@ layers:
   Navi:
   - Sft+DOWN
   - Sft+UP ARROW
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BACKSPACE
-  - ''
   - ''
   - {t: ▽, type: trans}
   - PAGE DOWN
@@ -270,10 +270,10 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - '&mkp MB1'
   - {t: ▽, type: trans}
-  - '&msc SCRL_UP'
   - LEFT
   - DOWN
   - UP
@@ -285,7 +285,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -328,5 +328,5 @@ combos:
 - p: [33, 34]
   k: ']'
   l: [Base]
-- p: [14, 15]
+- p: [15, 16]
   k: '&mkp MB3'
