@@ -331,7 +331,7 @@ combos:
 - p: [15, 16]
   k: '&mkp MB3'
   l: [Navi]
-- p: [28, 29]
+- p: [1, 2]
   k: ESCAPE
   l: [Base]
 - p: [2, 4]
