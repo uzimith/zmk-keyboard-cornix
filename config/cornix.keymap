@@ -241,7 +241,7 @@
 
         esc_2 {
             bindings = <&kp ESCAPE>;
-            key-positions = <28 29>;
+            key-positions = <1 2>;
             timeout-ms = <30>;
             layers = <0>;
         };
