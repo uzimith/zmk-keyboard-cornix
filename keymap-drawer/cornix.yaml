@@ -48,7 +48,7 @@ layers:
   - Num
   - {t: SPACE, h: Symbols}
   - {t: LANG1, h: Navi}
-  - ''
+  - RIGHT COMMAND
   - ''
   - Adjust
   Symbols:
