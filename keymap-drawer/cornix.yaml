@@ -263,8 +263,8 @@ layers:
   - BACKSPACE
   - ''
   - {t: ▽, type: trans}
-  - PAGE DOWN
-  - PAGE UP
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -289,8 +289,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - PAGE DOWN
+  - PG UP
   - ''
   - ''
   - ''
