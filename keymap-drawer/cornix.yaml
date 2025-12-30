@@ -334,6 +334,6 @@ combos:
 - p: [1, 2]
   k: ESCAPE
   l: [Base]
-- p: [2, 4]
+- p: [2, 3]
   k: TAB
   l: [Base]
