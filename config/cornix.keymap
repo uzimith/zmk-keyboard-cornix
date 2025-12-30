@@ -248,7 +248,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <2 4>;
+            key-positions = <2 3>;
             timeout-ms = <30>;
             layers = <0>;
         };
