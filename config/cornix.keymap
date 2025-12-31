@@ -291,10 +291,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none  &kp EXCL   &kp AT  &kp HASH  &kp DLLR   &kp PRCNT                  &kp CARET  &kp AMPS           &kp ASTRK  &kp LPAR       &kp RPAR  &none
-&none  &kp GRAVE  &none   &none     &kp MINUS  &kp PLUS                   &kp EQUAL  &kp TILDE          &kp PIPE   &kp BACKSLASH  &kp SQT   &none
-&none  &none      &none   &none     &none      &none      &trans  &trans  &kp SQT    &kp DOUBLE_QUOTES  &none      &none          &none     &none
-&none  &none      &none   &trans    &trans     &trans                     &trans     &trans             &kp N1     &none          &none     &none
+&none  &kp EXCL   &kp AT  &kp HASH  &kp DLLR   &kp PRCNT                  &kp CARET          &kp AMPS   &kp ASTRK  &kp LPAR       &kp RPAR  &none
+&none  &kp GRAVE  &none   &none     &kp MINUS  &kp PLUS                   &kp EQUAL          &kp TILDE  &kp PIPE   &kp BACKSLASH  &kp SQT   &none
+&none  &none      &none   &none     &none      &none      &trans  &trans  &kp DOUBLE_QUOTES  &kp SQT    &none      &none          &none     &none
+&none  &none      &none   &trans    &trans     &trans                     &trans             &trans     &kp N1     &none          &none     &none
             >;
         };
 
