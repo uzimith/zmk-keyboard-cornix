@@ -169,12 +169,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PRINTSCREEN
-  - SCROLLLOCK
+  - {t: PRINTSCREEN, h: LEFT COMMAND}
+  - {t: SCROLLLOCK, h: LEFT SHIFT}
   - PAUSE BREAK
   - INSERT
-  - HOME
-  - PG UP
+  - {t: HOME, h: RIGHT SHIFT}
+  - {t: PG UP, h: RIGHT COMMAND}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
