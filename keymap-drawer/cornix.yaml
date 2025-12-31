@@ -307,9 +307,6 @@ layers:
   - ''
   - ''
 combos:
-- p: [0, 1]
-  k: ESCAPE
-  l: [Base]
 - p: [4, 3]
   k: '{'
   l: [Base]
