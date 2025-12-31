@@ -65,16 +65,16 @@ layers:
   - )
   - ''
   - ''
-  - '`'
-  - ''
-  - ''
-  - '-'
+  - {t: '`', h: LCTRL}
+  - LEFT ALT
+  - LEFT COMMAND
+  - {t: '-', h: LEFT SHIFT}
   - +
   - '='
-  - '~'
-  - '|'
-  - \
-  - ''''
+  - {t: '~', h: RIGHT SHIFT}
+  - {t: '|', h: RIGHT SHIFT}
+  - {t: \, h: RIGHT ALT}
+  - {t: '''', h: RCTRL}
   - ''
   - ''
   - ''
