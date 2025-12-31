@@ -72,7 +72,7 @@ layers:
   - +
   - '='
   - {t: '~', h: RIGHT SHIFT}
-  - {t: '|', h: RIGHT SHIFT}
+  - {t: '|', h: RIGHT COMMAND}
   - {t: \, h: RIGHT ALT}
   - {t: '''', h: RCTRL}
   - ''
