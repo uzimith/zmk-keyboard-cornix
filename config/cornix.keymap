@@ -291,10 +291,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none  &kp EXCL           &kp AT        &kp HASH          &kp DLLR                      &kp PRCNT                  &kp CARET          &kp AMPS                       &kp ASTRK               &kp LPAR                   &kp RPAR         &none
-&none  &hm_l LCTRL GRAVE  &kp LEFT_ALT  &kp LEFT_COMMAND  &hm_shift_l LEFT_SHIFT MINUS  &kp PLUS                   &kp EQUAL          &hm_shift_l RIGHT_SHIFT TILDE  &hm_r RIGHT_SHIFT PIPE  &hm_r RIGHT_ALT BACKSLASH  &hm_r RCTRL SQT  &none
-&none  &none              &none         &none             &none                         &none      &trans  &trans  &kp DOUBLE_QUOTES  &kp SQT                        &none                   &none                      &none            &none
-&none  &none              &none         &trans            &trans                        &trans                     &trans             &trans                         &kp N1                  &none                      &none            &none
+&none  &kp EXCL           &kp AT        &kp HASH          &kp DLLR                      &kp PRCNT                  &kp CARET          &kp AMPS                       &kp ASTRK                 &kp LPAR                   &kp RPAR         &none
+&none  &hm_l LCTRL GRAVE  &kp LEFT_ALT  &kp LEFT_COMMAND  &hm_shift_l LEFT_SHIFT MINUS  &kp PLUS                   &kp EQUAL          &hm_shift_l RIGHT_SHIFT TILDE  &hm_r RIGHT_COMMAND PIPE  &hm_r RIGHT_ALT BACKSLASH  &hm_r RCTRL SQT  &none
+&none  &none              &none         &none             &none                         &none      &trans  &trans  &kp DOUBLE_QUOTES  &kp SQT                        &none                     &none                      &none            &none
+&none  &none              &none         &trans            &trans                        &trans                     &trans             &trans                         &kp N1                    &none                      &none            &none
             >;
         };
 
