@@ -275,10 +275,10 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - ''
+  - {t: DOWN, h: RIGHT SHIFT}
+  - {t: UP, h: RIGHT COMMAND}
+  - {t: RIGHT, h: RIGHT ALT}
+  - RCTRL
   - ''
   - ''
   - ''
