@@ -302,7 +302,7 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans          &trans         &trans                 &trans                 &trans                    &none      &none                  &trans                  &none          &none           &trans
+&trans  &trans          &trans         &trans                 &trans                 &trans                    &none      &none                  &kp ASTERISK            &none          &none           &trans
 &trans  &hm_l LCTRL N1  &hm_l LALT N2  &hm_l LEFT_COMMAND N3  &hm_shift_l LSHIFT N4  &kp N5                    &kp N6     &hm_shift_r RSHIFT N7  &hm_r RIGHT_COMMAND N8  &hm_r RALT N9  &hm_r RCTRL N0  &trans
 &trans  &trans          &trans         &trans                 &kp MINUS              &kp PLUS  &trans  &trans  &kp EQUAL  &trans                 &trans                  &trans         &trans          &trans
 &none   &none           &trans         &trans                 &trans                 &trans                    &trans     &trans                 &kp N2                  &none          &none           &none
