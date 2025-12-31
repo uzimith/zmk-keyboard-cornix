@@ -17,10 +17,10 @@ layers:
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT SHIFT}
+  - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
+  - {t: J, h: RSHFT}
   - {t: K, h: RIGHT COMMAND}
   - {t: L, h: RALT}
   - {t: ;, h: RCTRL}
@@ -66,14 +66,14 @@ layers:
   - ''
   - ''
   - {t: '`', h: LCTRL}
-  - LEFT ALT
+  - LALT
   - LEFT COMMAND
-  - {t: '-', h: LEFT SHIFT}
+  - {t: '-', h: LSHIFT}
   - +
   - '='
-  - {t: '~', h: RIGHT SHIFT}
+  - {t: '~', h: RSHIFT}
   - {t: '|', h: RIGHT COMMAND}
-  - {t: \, h: RIGHT ALT}
+  - {t: \, h: RALT}
   - {t: '''', h: RCTRL}
   - ''
   - ''
@@ -117,14 +117,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '1', h: LCTRL}
-  - {t: '2', h: LEFT ALT}
+  - {t: '2', h: LALT}
   - {t: '3', h: LEFT COMMAND}
-  - {t: '4', h: LEFT SHIFT}
+  - {t: '4', h: LSHIFT}
   - '5'
   - '6'
-  - {t: '7', h: LEFT SHIFT}
+  - {t: '7', h: RSHIFT}
   - {t: '8', h: RIGHT COMMAND}
-  - {t: '9', h: RIGHT ALT}
+  - {t: '9', h: RALT}
   - {t: '0', h: RCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,10 +170,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: PRINTSCREEN, h: LEFT COMMAND}
-  - {t: SCROLLLOCK, h: LEFT SHIFT}
+  - {t: SCROLLLOCK, h: LSHIFT}
   - PAUSE BREAK
   - INSERT
-  - {t: HOME, h: RIGHT SHIFT}
+  - {t: HOME, h: RSHIFT}
   - {t: PG UP, h: RIGHT COMMAND}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -275,9 +275,9 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - LEFT
-  - {t: DOWN, h: RIGHT SHIFT}
+  - {t: DOWN, h: RSHIFT}
   - {t: UP, h: RIGHT COMMAND}
-  - {t: RIGHT, h: RIGHT ALT}
+  - {t: RIGHT, h: RALT}
   - RCTRL
   - ''
   - ''
