@@ -122,10 +122,10 @@ layers:
   - {t: '4', h: LEFT SHIFT}
   - '5'
   - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: '7', h: LEFT SHIFT}
+  - {t: '8', h: RIGHT COMMAND}
+  - {t: '9', h: RIGHT ALT}
+  - {t: '0', h: RCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
