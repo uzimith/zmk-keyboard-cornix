@@ -45,9 +45,9 @@ layers:
   - {t: LANG2, h: Navi}
   - {t: SPACE, h: Symbols}
   - Num
-  - Num
+  - Navi
   - {t: SPACE, h: Symbols}
-  - {t: LANG1, h: Navi}
+  - {t: LANG1, h: Num}
   - RIGHT COMMAND
   - ''
   - Adjust
