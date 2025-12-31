@@ -116,10 +116,10 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
+  - {t: '1', h: LCTRL}
+  - {t: '2', h: LEFT ALT}
+  - {t: '3', h: LEFT COMMAND}
+  - {t: '4', h: LEFT SHIFT}
   - '5'
   - '6'
   - '7'
