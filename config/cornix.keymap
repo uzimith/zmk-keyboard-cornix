@@ -183,13 +183,6 @@
     combos {
         compatible = "zmk,combos";
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            timeout-ms = <30>;
-            key-positions = <0 1>;
-            layers = <0>;
-        };
-
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             timeout-ms = <25>;
