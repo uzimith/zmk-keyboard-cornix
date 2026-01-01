@@ -1269,18 +1269,17 @@ path.combo {
 </g>
 <g transform="translate(560, 101)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">DOWN</text>
-<text x="0" y="24" class="key hold">RSHIFT</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">UP</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
+</text>
 </g>
 <g transform="translate(616, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">UP</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 64%">RIGHT COMM…</tspan></text>
 </g>
 <g transform="translate(672, 102)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RIGHT</text>
-<text x="0" y="24" class="key hold">RALT</text>
 </g>
 <g transform="translate(728, 112)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

@@ -275,9 +275,9 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - LEFT
-  - {t: DOWN, h: RSHIFT}
-  - {t: UP, h: RIGHT COMMAND}
-  - {t: RIGHT, h: RALT}
+  - UP ARROW
+  - UP
+  - RIGHT
   - RCTRL
   - ''
   - ''
