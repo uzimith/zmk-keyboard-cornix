@@ -49,7 +49,7 @@ layers:
   - {t: SPACE, h: Symbols}
   - {t: LANG1, h: Num}
   - RIGHT COMMAND
-  - ''
+  - RIGHT ALT
   - Adjust
   Symbols:
   - ''
