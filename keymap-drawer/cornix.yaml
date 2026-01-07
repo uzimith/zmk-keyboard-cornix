@@ -259,7 +259,7 @@ layers:
   - ''
   - Sft+DOWN
   - Sft+UP ARROW
-  - {t: ▽, type: trans}
+  - DELETE
   - BACKSPACE
   - ''
   - {t: ▽, type: trans}
