@@ -257,8 +257,8 @@ layers:
   - {type: held}
   Navi:
   - ''
-  - Meh+LEFT
-  - Meh+RIGHT
+  - Ctl+Sft+TAB
+  - Ctl+TAB
   - DELETE
   - BACKSPACE
   - ''
