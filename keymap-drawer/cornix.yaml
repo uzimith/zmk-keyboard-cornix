@@ -288,9 +288,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PAGE DOWN
-  - PG UP
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - ''
   - ''
   - ''
