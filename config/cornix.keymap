@@ -287,14 +287,6 @@
     combos {
         compatible = "zmk,combos";
 
-        /*
-         * ZMK matches a combo against the highest active layer only, so a
-         * combo listing just BASE stops firing as soon as the WIN overlay is
-         * toggled on. Every base-layer combo therefore lists <0 1> (BASE and
-         * WIN); WIN is &trans on all of these positions, so the combo means
-         * the same thing on both.
-         */
-
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             timeout-ms = <25>;
