@@ -220,8 +220,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: PRINTSCREEN, h: LEFT COMMAND}
-  - {t: SCROLLLOCK, h: LSHIFT}
+  - PRINTSCREEN
+  - SCROLLLOCK
   - PAUSE BREAK
   - INSERT
   - {t: HOME, h: RSHIFT}
