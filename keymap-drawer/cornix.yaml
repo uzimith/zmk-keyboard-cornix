@@ -39,7 +39,7 @@ layers:
   - {t: ., h: Navi}
   - /
   - '-'
-  - {t: ▽, type: trans}
+  - Adjust
   - LEFT ALT
   - LEFT COMMAND
   - {t: LANG2, h: Navi}
@@ -294,7 +294,7 @@ layers:
   - ''
   - EP ON
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -305,7 +305,7 @@ layers:
   - '4'
   - ''
   - ''
-  - {type: held}
+  - ''
   Navi:
   - ''
   - Ctl+Sft+TAB
